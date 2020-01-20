@@ -279,10 +279,11 @@ img:hover {
 /* Footer */
 footer {
 	margin-top: 2rem;
+	font-size: 1.2rem;
 	background: var(--dark);
 	color: var(--light);
 	text-align: center;
-	padding: 1rem;
+	padding: 0.5rem;
 	box-shadow: var(--shadow);
 }
 
@@ -368,7 +369,7 @@ footer > p a:visited {
 		background: var(--dark);
 		color: var(--light);
 		text-align: center;
-		padding: 0.5rem;
+		padding: 0.4rem;
 		box-shadow: var(--shadow);
 	}
 
@@ -446,7 +447,7 @@ footer > p a:visited {
 	}
 
 	footer {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		margin-top: 2rem;
 		background: var(--dark);
 		color: var(--light);
@@ -465,7 +466,7 @@ footer > p a:visited {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
 
 	.content-box {
 		margin: 0px auto 16px auto;
@@ -488,20 +489,21 @@ footer > p a:visited {
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 370px) {
 
 	.projects p {
 		line-height: 2rem;
 	}
 
 	footer {
-		font-size: 0.6rem;
+		font-size: 0.7rem;
 		margin-top: 2rem;
 		background: var(--dark);
 		color: var(--light);
 		text-align: center;
-		padding: 0.5rem;
+		padding: 0.3rem;
 		box-shadow: var(--shadow);
 	}
 }
+
 
