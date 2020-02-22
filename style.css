@@ -253,16 +253,12 @@ img:hover {
 
 .projects .inline {
 	margin-top: 1.6em;
-	display: grid;
+	display: inline-grid;
 	grid-gap: 10px;
 	text-align: center;
 	justify-content: center;
 	grid-template-rows: 1fr;
 	grid-template-columns: 8rem 8rem;
-}
-
-.projects .inline .margin {
-	margin-right: 10px;
 }
 
 .tech-items {
